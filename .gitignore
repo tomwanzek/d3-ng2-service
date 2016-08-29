@@ -5,6 +5,7 @@ src/**/*.js
 src/**/*.js.map
 esm/**/*.js
 esm/**/*.js.map
+**/*.d.ts
 
 # Logs
 logs
