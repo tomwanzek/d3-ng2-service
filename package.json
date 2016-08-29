@@ -2,7 +2,7 @@
   "name": "d3-ng2-service",
   "version": "0.0.1",
   "description": "A D3 service for use with Angular 2. This service includes the D3 version 4.x modules included by Mike Bostock in his standard bundle with the exception of d3-dsv and d3-request. In addition the service includes the functionality provided by the d3-selection-multi module.",
-  "main": "index.js",
+    "main": "index.js",
   "jsnext:main": "esm/index.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -46,7 +46,17 @@
     "d3-voronoi",
     "d3-zoom"
   ],
-  "author": "Thomas Wanzek",
+  "author": {
+    "name": "Thomas Wanzek",
+    "url": "https://github.com/tomwanzek"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomwanzek/d3-ng2-service"
+  },
+  "bugs": {
+    "url": "https://github.com/tomwanzek/d3-ng2-service/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "d3-array": "^1.0.1",
