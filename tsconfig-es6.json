@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "declaration": true,
     "stripInternal": true,
-    "emitDecoratorMetadata": false,
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noImplicitAny": true,
     "module": "es6",
