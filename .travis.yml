@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 5
+  - 6
+
+before_install:
+  - npm install -g npm@^3
+
+before_script:
+  - npm install grunt-cli -g
+
+script:
+  - grunt tsbuild

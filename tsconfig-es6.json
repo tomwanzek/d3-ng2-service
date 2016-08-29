@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "stripInternal": true,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "./esm",
+    "rootDir": ".",
+    "target": "es6",
+    "sourceMap": true,
+    "inlineSources": true
+  },
+  "files": [
+    "./index.ts",
+    "./src/bundle-d3.ts",
+    "./src/d3.service.ts"
+  ]
+}
