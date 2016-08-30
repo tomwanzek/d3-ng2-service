@@ -1,7 +1,7 @@
 {
   "name": "d3-ng2-service",
   "version": "0.0.1",
-  "description": "A D3 service for use with Angular 2. This service includes the D3 version 4.x modules included by Mike Bostock in his standard bundle with the exception of d3-dsv and d3-request. In addition the service includes the functionality provided by the d3-selection-multi module.",
+  "description": "A D3 version 4 service for use with Angular 2.",
     "main": "index.js",
   "jsnext:main": "esm/index.js",
   "typings": "index.d.ts",
