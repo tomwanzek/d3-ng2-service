@@ -6,11 +6,12 @@
 * [Scope of D3 Functionality](#scope-of-d3-functionality)
 * [Intended Use](#intended-use)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Worked Example Project](#worked-example-project)
 
 ## Introduction
 
-**D3**, Mike Bostock’s famed data visualization tool, has recently undergone a major overhaul. Similarly, **Angular 2** is a material departure from its predecessor.
+[**D3**](https://github.com/d3/d3), [Mike Bostock](https://github.com/mbostock)’s famed data visualization tool, has recently undergone a major overhaul. Similarly, [**Angular 2**](https://github.com/angular/angular) is a material departure from its predecessor.
 
 The newly released **D3 version 4** has been completely modularized and seen enhancements, which make it all the more powerful, yet easy to use.
 
@@ -31,14 +32,14 @@ In addition, however, this package supports the functionality provided by the no
 
 _d3-request_ has been omitted as a design choice given the feature set of **Angular 2**.
 
-_d3-dsv_ is _currently_ not included due to an external dependency on the in progress migration of new TypeScript definitions for _d3-dsv_ into **DefinitelyTyped** and by implication the **npm @types** organization. 
+_d3-dsv_ is _currently_ not included due to an external dependency on the _in-progress_ migration of new TypeScript definitions for _d3-dsv_ into **DefinitelyTyped** and by implication the **npm @types** organization. 
 
-## Inteded Use
+## Intended Use
 
 This package was designed to quickly add **D3 version 4** support to an **Angular 2** application, such as those created with **angular-cli**. 
 
 As is clear from the D3 scope described above, there may be circumstances, where a smaller or larger D3 feature set may be better suited.
-In such cases reviewing the TypeScript source code in the package's Github repo may serve as a starting point for a more tailored solution.
+In such cases reviewing the TypeScript source code in the [package's Github repo](https://github.com/tomwanzek/d3-ng2-service) may serve as a starting point for a more tailored solution.
 
 ## Installation
 
@@ -53,14 +54,14 @@ Please note, that the package has _peer dependencies_ on **@angular/core** and i
 ## Usage
 
 Once the module `d3-ng2-service` has been added to a project as described above, it provides the following importable exports:
-The below code snippets assume the use of TypeScript.
+
 * `D3Service`: The Angular 2 D3 Service injectable,
 * `D3`: A TypeScript type alias for the `d3` variable which can be obtained from the `D3Service`, and
-* the various TypeScript interfaces and type aliases which support work the use of `d3` (e.g. `Selection`, `Transition`, `Axis`). 
+* the various TypeScript interfaces and type aliases which are related to the D3 modules constituting `d3` as provided by this service (e.g. `Selection`, `Transition`, `Axis`). 
 
 To obtain the `d3` object from an injected D3 service `d3Service: D3Service`, it offers a method `d3Service.getD3()` with return type `D3`. 
 
-
+The below code snippets assume the use of TypeScript.
 
 ### Example 1 - Registering the Service with an Angular 2 Module
 
