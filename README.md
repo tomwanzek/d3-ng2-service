@@ -1,6 +1,14 @@
 # D3 Service for Angular 2
 
-## Background
+## Content
+
+* [Introduction](#introduction)
+* [Scope of D3 Functionality](#scope-of-d3-functionality)
+* [Intended Use](#intended-use)
+* [Installation](#installation)
+* [Worked Example Project](#worked-example-project)
+
+## Introduction
 
 **D3**, Mike Bostock’s famed data visualization tool, has recently undergone a major overhaul. Similarly, **Angular 2** is a material departure from its predecessor.
 
@@ -129,7 +137,7 @@ export class TestD3Component implements OnInit {
 }
 ```
 
-## Related Example
+## Worked Example Project
 
 For a more complete worked example of how this module can be used in an angular-cli created D3 Demo App, please see: 
 * [tomwanzek/d3v4-ng2-demo](https://github.com/tomwanzek/d3v4-ng2-demo)
