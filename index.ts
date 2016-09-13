@@ -55,8 +55,13 @@ export {
   DragContainerElement,
   DraggedElementBaseType,
   SubjectPosition,
-  // TODO: d3-dsv
+  // d3-dsv
+  DSV,
+  DSVParsedArray,
+  DSVRowAny,
+  DSVRowString,
   // d3-ease
+  // no Interfaces to export
   // d3-force
   Force,
   ForceCenter,
