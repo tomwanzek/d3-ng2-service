@@ -122,17 +122,17 @@
     "d3-zoom": "1.0"
   },
   "peerDependencies": {
-    "@angular/core": "2.0.0-rc.5 || 2.0.0-rc.5"
+    "@angular/core": "2.0.0-rc.5 || 2.0.0-rc.6"
   },
   "devDependencies": {
-    "@angular/core": "2.0.0-rc.5",
+    "@angular/core": "2.0.0-rc.6",
     "codelyzer": "0.0.28",
     "grunt": "^1.0.1",
     "grunt-ts": "6.0.0-beta.3",
     "grunt-tslint": "^3.2.1",
-    "rxjs": "5.0.0-beta.6",
+    "rxjs": "5.0.0-beta.11",
     "tslint": "^3.15.1",
     "typescript": "^2.0.0",
-    "zone.js": "^0.6.6"
+    "zone.js": "^0.6.21"
   }
 }
