@@ -135,4 +135,4 @@ export class TestD3Component implements OnInit {
 ## Worked Example Project
 
 For a more complete worked example of how this module can be used in an angular-cli created D3 Demo App, please see: 
-* Github repo: [tomwanzek/d3v4-ng2-demo](https://github.com/tomwanzek/d3-ng2-demo) and the related [_live_ Github page](https://tomwanzek.github.io/d3-ng2-demo/).
+* Github repo: [tomwanzek/d3-ng2-demo](https://github.com/tomwanzek/d3-ng2-demo) and the related [_live_ Github page](https://tomwanzek.github.io/d3-ng2-demo/).
