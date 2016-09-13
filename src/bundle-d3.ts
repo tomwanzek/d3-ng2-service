@@ -6,6 +6,7 @@ export * from 'd3-collection';
 export * from 'd3-color';
 export * from 'd3-dispatch';
 export * from 'd3-drag';
+export * from 'd3-dsv';
 export * from 'd3-ease';
 export * from 'd3-force';
 export * from 'd3-format';
