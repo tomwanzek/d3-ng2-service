@@ -1,5 +1,7 @@
 # D3 Service for Angular 2
 
+[![Build Status](https://travis-ci.org/tomwanzek/d3-ng2-service.svg?branch=master)](https://travis-ci.org/tomwanzek/d3-ng2-service)
+
 ## Content
 
 * [Introduction](#introduction)
