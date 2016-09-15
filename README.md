@@ -9,7 +9,7 @@
 * [Intended Use](#intended-use)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Worked Example Project](#worked-example-project)
+* [Demo Project](#demo-project)
 
 ## Introduction
 
@@ -45,7 +45,7 @@ To include the package into your **Angular 2** project, simply use the standard 
 npm install d3-ng2-service --save
 ```
 
-Please note that, the package has a _peer dependency_ on **@angular/core**. It is currently intended for use with @angular/core module versions corresponding to release candidates **RC5** and **RC6**.
+Please note that, the package has a _peer dependency_ on **@angular/core**.
 
 ## Usage
 
@@ -134,7 +134,7 @@ export class TestD3Component implements OnInit {
 }
 ```
 
-## Worked Example Project
+## Demo Project
 
 For a more complete worked example of how this module can be used in an angular-cli created D3 Demo App, please see: 
 * Github repo: [tomwanzek/d3-ng2-demo](https://github.com/tomwanzek/d3-ng2-demo) and the related [_live_ Github page](https://tomwanzek.github.io/d3-ng2-demo/).
