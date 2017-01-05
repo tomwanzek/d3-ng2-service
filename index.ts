@@ -61,7 +61,9 @@ export {
   DSVRowAny,
   DSVRowString,
   // d3-ease
-  // no Interfaces to export
+  BackEasingFactory,
+  ElasticEasingFactory,
+  PolynomialEasingFactory,
   // d3-force
   Force,
   ForceCenter,
