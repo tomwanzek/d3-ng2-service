@@ -1,19 +1,26 @@
 {
   "name": "d3-ng2-service",
-  "version": "1.8.0",
-  "description": "A D3 version 4 service for use with Angular 2.",
+  "version": "1.9.0",
+  "description": "A D3 version 4 service for use with Angular 2+.",
   "main": "index.js",
-  "jsnext:main": "esm/index.js",
+  "jsnext:main": "index.js",
+  "module": "index.js",
+  "es2015": "esm/index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "build": "grunt tsbuild",
+    "build": "npm run es5 && npm run es2015 && npm run lint",
+    "es5": "tsc --project ./tsconfig.es5.json",
+    "es2015": "tsc --project ./tsconfig.json",
+    "lint": "tslint -c tslint.json --project tsconfig.json",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "d3",
     "d3 4.x",
+    "angular",
     "angular 2",
+    "ng",
     "ng2",
     "service",
     "d3-array",
@@ -122,18 +129,15 @@
     "d3-zoom": "1.1"
   },
   "peerDependencies": {
-    "@angular/core": "^2.0 || 2.0.0-rc.5 || 2.0.0-rc.6 || 2.0.0-rc.7"
+    "@angular/core": "^4.0 || ^2.0 || 2.0.0-rc.5 || 2.0.0-rc.6 || 2.0.0-rc.7"
   },
   "devDependencies": {
-    "@angular/compiler": "2.4.0",
-    "@angular/core": "2.4.0",
-    "codelyzer": "^1.0.0-beta.3",
-    "grunt": "^1.0.1",
-    "grunt-ts": "6.0.0-beta.3",
-    "grunt-tslint": "3.2.1",
-    "rxjs": "^5.1.0",
-    "tslint": "3.15.1",
-    "typescript": "~2.0.0",
-    "zone.js": "^0.7.6"
+    "@angular/compiler": "4.0.1",
+    "@angular/core": "4.0.1",
+    "codelyzer": "2.0.0",
+    "rxjs": "5.1.0",
+    "tslint": "4.5.0",
+    "typescript": "2.2.2",
+    "zone.js": "0.8.4"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "extends": "./configs/base.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "baseUrl": ".",
+    "outDir": "./esm",
+    "rootDir": "."
+  }
+}
+
