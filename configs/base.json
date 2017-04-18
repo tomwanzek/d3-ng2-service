@@ -1,26 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "declaration": true,
     "stripInternal": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noImplicitAny": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
-    "module": "es6",
     "moduleResolution": "node",
-    "outDir": ".",
-    "rootDir": ".",
-    "target": "es5",
     "sourceMap": true,
     "inlineSources": true
   },
   "files": [
-    "./index.ts",
-    "./src/bundle-d3.ts",
-    "./src/d3.service.ts"
+    "../index.ts",
+    "../src/bundle-d3.ts",
+    "../src/d3.service.ts"
   ]
 }
