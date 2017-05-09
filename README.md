@@ -5,8 +5,8 @@
 ## Content
 
 * [Introduction](#introduction)
-* [Scope of D3 Functionality](#scope-of-d3-functionality)
 * [Intended Use](#intended-use)
+* [Scope of D3 Functionality](#scope-of-d3-functionality)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Demo Project](#demo-project)
