@@ -3,8 +3,9 @@
 !**/*.d.ts
 
 # Build Related files
-tsconfig-es5.json
-tsconfig-es6.json
+config
+tsconfig.json
+tsconfig.es5.json
 tslint.json
 
 # Testing Related files
