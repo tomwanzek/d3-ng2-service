@@ -129,7 +129,13 @@ export {
   // d3-queue
   Queue,
   // d3-random
-  // TODO: d3-request
+  RandomBates,
+  RandomExponential,
+  RandomIrwinHall,
+  RandomLogNormal,
+  RandomNormal,
+  RandomNumberGenerationSource,
+  RandomUniform,
   // d3-scale
   InterpolatorFactory,
   ScaleBand,
