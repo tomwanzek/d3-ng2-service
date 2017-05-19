@@ -168,10 +168,13 @@ export {
   // d3-shape
   Arc,
   Area,
+  AreaRadial,
   DefaultArcObject,
   DefaultLinkObject,
   Line,
+  LineRadial,
   Link,
+  LinkRadial,
   Pie,
   PieArcDatum,
   RadialArea,
