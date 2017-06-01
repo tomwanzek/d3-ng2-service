@@ -6,6 +6,7 @@ export {
   Bisector,
   HistogramGenerator,
   Numeric,
+  Primitive,
   ThresholdArrayGenerator,
   ThresholdCountGenerator,
   // d3-axis
@@ -23,7 +24,9 @@ export {
   ChordGroup,
   ChordLayout,
   Chords,
+  Ribbon,
   RibbonGenerator,
+  RibbonSubgroup,
   // d3-collection
   Map,
   Nest,
@@ -122,6 +125,7 @@ export {
   // d3-path
   Path,
   // d3-polygon
+  // No interfaces or types
   // d3-quadtree
   Quadtree,
   QuadtreeInternalNode,
@@ -138,6 +142,7 @@ export {
   RandomUniform,
   // d3-scale
   InterpolatorFactory,
+  ScaleContinuousNumeric,
   ScaleBand,
   ScaleIdentity,
   ScaleLinear,
@@ -155,6 +160,7 @@ export {
   BaseEvent,
   BaseType,
   ContainerElement,
+  CustomEventParameters,
   EnterElement,
   Local,
   NamespaceLocalObject,
@@ -169,6 +175,13 @@ export {
   Arc,
   Area,
   AreaRadial,
+  CurveBundleFactory,
+  CurveCardinalFactory,
+  CurveCatmullRomFactory,
+  CurveFactory,
+  CurveFactoryLineOnly,
+  CurveGenerator,
+  CurveGeneratorLineOnly,
   DefaultArcObject,
   DefaultLinkObject,
   Line,
