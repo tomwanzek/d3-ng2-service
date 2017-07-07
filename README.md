@@ -72,7 +72,7 @@ The below code snippets assume the use of TypeScript.
 
 Import the **Angular service** and register it as a **provider with an Angular module**.
 
-```
+```ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ApplicationRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -106,7 +106,7 @@ export class AppModule {
 _Important:_ The component is declared in the same module as the `D3Service` provider has been registered.
 Import the **D3 service** and then pass the service into the _component constructor_ together with `ElementRef`. Obtain `d3` from the **D3 service** and use it to perform the required tasks.
 
-```
+```ts
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { D3Service, D3, Selection } from 'd3-ng2-service'; // <-- import the D3 Service, the type alias for the d3 variable and the Selection interface
 
