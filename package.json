@@ -1,6 +1,6 @@
 {
   "name": "d3-ng2-service",
-  "version": "1.16.0",
+  "version": "1.16.1",
   "description": "A D3 version 4 service for use with Angular 2+.",
   "main": "index.js",
   "jsnext:main": "index.js",
@@ -95,7 +95,7 @@
     "@types/d3-time-format": "2.0",
     "@types/d3-timer": "1.0",
     "@types/d3-transition": "1.1",
-    "@types/d3-voronoi": "1.1",
+    "@types/d3-voronoi": ">=1.1.7 <1.2.0",
     "@types/d3-zoom": "1.5",
     "d3-array": "1.2",
     "d3-axis": "1.0",
