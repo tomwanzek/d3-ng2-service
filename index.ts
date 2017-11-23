@@ -159,6 +159,7 @@ export {
   ArrayLike,
   BaseEvent,
   BaseType,
+  ClientPointEvent,
   ContainerElement,
   CustomEventParameters,
   EnterElement,
