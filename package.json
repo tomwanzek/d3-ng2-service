@@ -1,6 +1,6 @@
 {
   "name": "d3-ng2-service",
-  "version": "1.23.0",
+  "version": "1.23.1",
   "description": "A D3 version 4 service for use with Angular 2+.",
   "main": "index.js",
   "jsnext:main": "index.js",
@@ -126,7 +126,7 @@
     "d3-timer": "1.0",
     "d3-transition": "1.1",
     "d3-voronoi": "1.1",
-    "d3-zoom": "^1.7.1"
+    "d3-zoom": ">=1.7.1 <1.8"
   },
   "peerDependencies": {
     "@angular/core": "^5.0 || ^4.0 || ^2.0"
