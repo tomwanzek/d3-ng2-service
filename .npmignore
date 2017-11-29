@@ -63,3 +63,4 @@ typings
 #git Related
 .gitattributes
 .gitignore
+.git/
