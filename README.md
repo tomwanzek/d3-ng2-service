@@ -1,4 +1,4 @@
-# D3 Service for Angular 2+
+# D3 Service for Angular
 
 [![Build Status](https://travis-ci.org/tomwanzek/d3-ng2-service.svg?branch=master)](https://travis-ci.org/tomwanzek/d3-ng2-service)
 
@@ -20,14 +20,14 @@ With the release of version 4, **D3** has been completely modularized and seen e
 Amongst the many changes since the release of **Angular 2**, the native support for developing at scale in TypeScript and the overhauled componentized structure are but two.
 
 Combining the power of **D3** and **Angular** can be challenging at first. The intent of this package is to provide a simple way to access **D3** as an **Angular service** for use by components requiring the kind of sophisticated visualization support D3 excels at.
-The package includes TypeScript 2 definitions to improve development experience and code maintainability.
+The package includes TypeScript definitions to improve development experience and code maintainability.
 
 ## Intended Use
 
 This package was designed to quickly add **D3** support to an **Angular** application, such as those created with the **angular-cli**.
 
 As is clear from the D3 scope described below, there may be circumstances, where a smaller or larger D3 feature set may be better suited for a given project.
-In such cases reviewing the TypeScript source code in the [package's Github repo](https://github.com/tomwanzek/d3-ng2-service) may serve as a starting point for a more tailored solution.
+In such cases, reviewing the TypeScript source code in this [package's Github repo](https://github.com/tomwanzek/d3-ng2-service) may serve as a starting point for a more tailored solution.
 
 A suggested approach may also involve starting out with the **d3-ng2-service** for rapid prototyping. Then, once there is more stability regarding the specific, required **D3** feature set,
 the D3 service pattern can be preserved by implementing the minimally viable D3 service directly in the project. This amounts to manually "treeshaking" D3 in order to preserve the
@@ -37,9 +37,9 @@ For those interested in using the treeshaking performed "automatically" by third
 
 ## Scope of D3 Functionality
 
-As this package is designed for use with **Angular 2+**, it does not strictly mirror the functionality scope included in the [_D3 Standard Bundle_](https://github.com/d3/d3).
+As this package is designed for use with **Angular**, it does not strictly mirror the functionality scope included in the [_D3 Standard Bundle_](https://github.com/d3/d3).
 
-The [_d3-request_](https://github.com/d3/d3-request) module has been **omitted** as a design choice given the feature set of **Angular**. By implication, it is recommended to utilize e.g. the **Angular** `http` service for client/server communication. The `d3-ng2-service` package does, however, expose **D3** data parsing functionality such as `csvParse(...)`.
+The [_d3-fetch_](https://github.com/d3/d3-fetch) module has been **omitted** as a design choice given the feature set of **Angular**. By implication, it is recommended to utilize e.g. **Angular's** `HttpClient` for client/server communication. The `d3-ng2-service` package does, however, expose **D3** data parsing functionality such as `csvParse(...)`.
 
 The functionality enhancements provided by the now separate [_d3-selection-multi_](https://github.com/d3/d3-selection-multi) module have been included for added convenience.
 
@@ -54,7 +54,7 @@ To include the package into your **Angular** project, simply use the standard np
 npm install d3-ng2-service --save
 ```
 
-Please note that, the package has a _peer dependency_ on **@angular/core**.
+Please note that the package has a _peer dependency_ on **@angular/core**.
 
 ## Usage
 

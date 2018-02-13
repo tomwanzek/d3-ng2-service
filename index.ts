@@ -50,6 +50,10 @@ export {
   LabColorFactory,
   RGBColor,
   RGBColorFactory,
+  // d3-contour
+  ContourDensity,
+  ContourMultiPolygon,
+  Contours,
   // d3-dispatch
   Dispatch,
   // d3-drag
@@ -130,8 +134,6 @@ export {
   Quadtree,
   QuadtreeInternalNode,
   QuadtreeLeaf,
-  // d3-queue
-  Queue,
   // d3-random
   RandomBates,
   RandomExponential,
@@ -155,6 +157,8 @@ export {
   ScaleSequential,
   ScaleThreshold,
   ScaleTime,
+  // d3-scale-chromatic
+  // No interfaces or types
   // d3-selection
   ArrayLike,
   BaseEvent,
