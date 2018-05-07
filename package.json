@@ -129,11 +129,11 @@
     "d3-zoom": ">=1.7.1 <1.8"
   },
   "peerDependencies": {
-    "@angular/core": "^5.0 || ^4.0 || ^2.0"
+    "@angular/core": "^6.0 || ^5.0 || ^4.0 || ^2.0"
   },
   "devDependencies": {
-    "@angular/compiler": "5.0.0",
-    "@angular/core": "5.0.0",
+    "@angular/compiler": "6.0.0",
+    "@angular/core": "6.0.0",
     "codelyzer": "3.2.2",
     "rxjs": "5.5.2",
     "tslint": "5.7.0",
