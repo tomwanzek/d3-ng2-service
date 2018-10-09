@@ -7,7 +7,8 @@ export {
   HistogramGenerator,
   Numeric,
   Primitive,
-  ThresholdArrayGenerator,
+  ThresholdNumberArrayGenerator,
+  ThresholdDateArrayGenerator,
   ThresholdCountGenerator,
   // d3-axis
   Axis,
